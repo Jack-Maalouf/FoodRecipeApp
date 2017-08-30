@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.behr.shuffleRecipe" version="1.0.0" xmlns="" xmlns:gap="">
     <name>Shuffle App</name>
     <description>
         An app built by Rufus Behr to shuffle 5 different dishes and recipes.
