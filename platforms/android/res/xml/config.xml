@@ -62,7 +62,7 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Shuffle App</name>
+    <name>Food Shuffle</name>
     <description>
         An app built by Rufus Behr to shuffle 5 different dishes and recipes.
     </description>
