@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Food Selector App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles>-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <link rel = "stylesheet" href="css/framework7.ios.colors.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>    
+      <script>
+        var foodLinks = ["", "", "", "",""]
+        function setEverything(){
+        var food = chooseFood();
+        var i = 0;
+            
+            $(document).ready(function(){
+            $("#label0").text(food[0].foodName);
+            });
+            foodLinks[0]=food[0].url;
+            
+            $(document).ready(function(){
+            $("#label1").text(food[1].foodName);
+            });
+            foodLinks[1]=food[1].url;
+            console.log(foodLinks[1]);
+            $(document).ready(function(){
+            $("#label2").text(food[2].foodName);
+            });
+            foodLinks[2]=food[2].url;
+            
+            $(document).ready(function(){
+            $("#label3").text(food[3].foodName);
+            });
+            foodLinks[3]=food[3].url;
+            
+            $(document).ready(function(){
+            $("#label4").text(food[4].foodName);
+            });
+            foodLinks[4]=food[4].url;
+            
+        }
+          function f0(){
+          window.location.href = foodLinks[0];
+          }
+          function f1(){
+          window.location.href = foodLinks[1];
+          }
+          function f2(){
+          window.location.href = foodLinks[2];
+          }
+          function f3(){
+          window.location.href = foodLinks[3];
+          }
+          function f4(){
+          window.location.href = foodLinks[4];
+          }
+          
+        setEverything();
+</script>
+    
+  </head>
+    <body>
+            <div class="page-content">
+                <div class = "content-title">Food Selector:</div>
+              <div class="content-block" style = "text-align: center;">
+                  <div class="list-block">
+                <ul>
+                    <li>
+                        <p class="buttons-row">
+                          <a onclick = "f0()" class="button button-fill color-pink" id = "label0">Label 0</a>
+                        </p>
+                    </li>
+                    <li>
+                     <p class="buttons-row">
+                        <a onclick = "f1()" class="button button-fill color-lightblue" id = "label1">Label1</a>
+                        </p>
+                    </li>
+                    <li>
+                     <p class="buttons-row">   
+                         <a onclick = "f2()" class="button button-fill color-blue" id = "label2">Label 2</a>
+                        </p>
+                    </li>
+                    <li>
+                     <p class="buttons-row">
+                        <a onclick = "f3()" class="button button-fill color-lightblue" id = "label3">Label 3</a>
+                        </p>
+                    </li>
+                    <li>
+                         <p class="buttons-row">
+                        <a onclick = "f4()" class="button button-fill color-pink" id = "label4">Label 4</a>
+                         </p>
+                    </li>
+                  </ul>
+                      <p><a href="#" class = "button color-black" onclick = "setEverything()">Shuffle</a></p>
+                </div>
+              </div>
+            </div>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>    
+  </body>
+</html>
