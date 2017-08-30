@@ -8,69 +8,69 @@
     },
     "installed_plugins": {
         "cordova-plugin-battery-status": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-contacts": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-media": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         },
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.behr.shuffleRecipe"
         }
     }
 }
