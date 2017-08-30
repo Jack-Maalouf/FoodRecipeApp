@@ -11,7 +11,7 @@ I made this app for my friend, who wanted an app that would select 5 random dish
 Depending on the platform you are using it will vary. 
 
 If you are using a version of iOS on your phone you will have to do the following:
-1. Open the www/platofrms/ios, and then open the .workspace file in xcode
+1. Open the www/platofrms/ios, and then open the .xcodeproj file in xcode
 2. Then run the code on your phone
 
 If you are using a version of android on your phone you will have to do the following:
